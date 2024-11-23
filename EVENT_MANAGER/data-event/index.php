@@ -41,7 +41,7 @@
                                 include("../koneksi.php");
 
                                 #2. menulis query
-                                $tampil = "SELECT * FROM events";
+                                $tampil = "SELECT * FROM event";
 
                                 #3. jalankan query
                                 $proses = mysqli_query($koneksi, $tampil);
