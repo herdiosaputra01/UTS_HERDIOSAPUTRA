@@ -3,7 +3,7 @@
 include("../koneksi.php");
 
 #2. mengambil value dari form
-$id = $_POST['Id'];
+$id = $_POST['id'];
 $nama = $_POST['nama'];
 $lokasi = $_POST['lokasi'];
 $tanggal = $_POST['tanggal'];

@@ -6,7 +6,7 @@ include("../koneksi.php");
 $id = $_GET['xyz'];
 
 #3. menulis query
-$hapus = "DELETE FROM event WHERE id='$id'";
+$hapus = "DELETE FROM events WHERE id='$id'";
 
 #4. jalankan query
 $proses = mysqli_query($koneksi, $hapus);
