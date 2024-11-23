@@ -49,7 +49,19 @@ $data = mysqli_fetch_array($edit);
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Nama Event</label>
-                                <input type="text" value="<?=$data['event']?>" name="jurusan" class="form-control" id="exampleInputPassword1">
+                                <input type="text" value="<?=$data['event']?>" name="event" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Lokasi</label>
+                                <input type="text" value="<?=$data['lokasi']?>" name="lokasi" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Tanggal Event</label>
+                                <input type="text" value="<?=$data['tanggal']?>" name="tanggal" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Jumlah Peserta</label>
+                                <input type="text" value="<?=$data['peserta']?>" name="peserta" class="form-control" id="exampleInputPassword1">
                             </div>
                             <button type="submit" class="btn btn-primary" >Update</button>
                         </form>

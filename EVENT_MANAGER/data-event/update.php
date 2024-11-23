@@ -3,9 +3,11 @@
 include("../koneksi.php");
 
 #2. mengambil value dari form
-$id = $_POST ['id'];
-$kd = $_POST['kode'];
-$jrs = $_POST['jurusan'];
+$id = $_POST['id'];
+$nama = $_POST['nama'];
+$lokasi = $_POST['lokasi'];
+$tanggal = $_POST['tanggal'];
+$peserta = $_POST['peserta'];
 
 #3. menulis query
 $sunting = "UPDATE jurusans SET kode='$kd',jurusan='$jrs' WHERE id='$id'";
