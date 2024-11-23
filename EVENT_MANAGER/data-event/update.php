@@ -10,7 +10,7 @@ $tanggal = $_POST['tanggal'];
 $peserta = $_POST['peserta'];
 
 #3. menulis query
-$sunting = "UPDATE jurusans SET kode='$kd',jurusan='$jrs' WHERE id='$id'";
+$sunting = "UPDATE event SET nama='$nama',lokasi='$lokasi',tanggal='$tanggal',peserta='$peserta' WHERE id='$id'";
 
 #4. jalankan query
 $proses = mysqli_query($koneksi, $sunting);
