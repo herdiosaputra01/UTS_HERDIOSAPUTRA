@@ -4,16 +4,16 @@ include("../koneksi.php");
 
 #2. mengambil value dari form
 $id = $_POST['id'];
-$nama = $_POST['nama'];
+$event = $_POST['event'];
 $lokasi = $_POST['lokasi'];
 $tanggal = $_POST['tanggal'];
 $peserta = $_POST['peserta'];
 
 #3. menulis query
-$simpan = "INSERT INTO event (id,nama,lokasi,tanggal,peserta) VALUES ('$id','$nama','$lokasi','tanggal','peserta')";
+$simpan = "INSERT INTO event (id,event,lokasi,tanggal,peserta) VALUES ('$id','$event','$lokasi','$tanggal','$peserta')";
 
 #4. jalankan query
-$proses = mysqli_query($koneksi, $simpan);
+$proses = mysqli_query($koneksi,$simpan);
 
 #5. mengalihkan halaman
 // header("location:index.php");
