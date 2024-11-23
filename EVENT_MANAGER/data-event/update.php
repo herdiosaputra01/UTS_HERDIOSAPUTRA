@@ -20,5 +20,5 @@ $proses = mysqli_query($koneksi, $sunting);
 
 ?>
 <script>
-    document.location="index.php";
-</script> 
+    document.location = "index.php";
+</script>

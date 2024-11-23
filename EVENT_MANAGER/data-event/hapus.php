@@ -16,5 +16,5 @@ $proses = mysqli_query($koneksi, $hapus);
 
 ?>
 <script>
-    document.location="index.php";
-</script> 
+    document.location = "index.php";
+</script>

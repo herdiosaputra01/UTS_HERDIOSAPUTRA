@@ -44,7 +44,7 @@
                                 <label for="exampleInputPassword1" class="form-label">Jumlah Peserta</label>
                                 <input type="text" name="peserta" class="form-control" id="exampleInputPassword1">
                             </div>
-                            <button type="submit" class="btn btn-primary" >Submit</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>

@@ -13,12 +13,12 @@ $peserta = $_POST['peserta'];
 $simpan = "INSERT INTO events (id,nama,lokasi,tanggal,peserta) VALUES ('$id','$nama','$lokasi','$tanggal','$peserta')";
 
 #4. jalankan query
-$proses = mysqli_query($koneksi,$simpan);
+$proses = mysqli_query($koneksi, $simpan);
 
 #5. mengalihkan halaman
 // header("location:index.php");
 
 ?>
 <script>
-    document.location="index.php";
-</script> 
+    document.location = "index.php";
+</script>
