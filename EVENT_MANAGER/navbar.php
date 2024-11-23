@@ -10,7 +10,7 @@
           <a class="nav-link active" aria-current="page" href="/UTS_HERDIOSAPUTRA/EVENT_MANAGER/index.php">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/UTS_HERDIOSAPUTRA/EVENT_MANAGER/data-event/index.php">Data Jurusan</a>
+          <a class="nav-link active" aria-current="page" href="/UTS_HERDIOSAPUTRA/EVENT_MANAGER/data-event/index.php">Data Event Manager</a>
         </li>
       </ul>
       <form class="d-flex" role="search">

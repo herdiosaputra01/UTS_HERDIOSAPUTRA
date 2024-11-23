@@ -41,7 +41,7 @@
                                 include("../koneksi.php");
 
                                 #2. menulis query
-                                $tampil = "SELECT * FROM event";
+                                $tampil = "SELECT * FROM events";
 
                                 #3. jalankan query
                                 $proses = mysqli_query($koneksi, $tampil);
@@ -53,7 +53,7 @@
                                     <tr>
                                         <th scope="row"><?= $nomor++ ?></th>
                                         <td><?= $data['id'] ?></td>
-                                        <td><?= $data['event'] ?></td>
+                                        <td><?= $data['nama'] ?></td>
                                         <td><?= $data['lokasi'] ?></td>
                                         <td><?= $data['tanggal'] ?></td>
                                         <td><?= $data['peserta'] ?></td>

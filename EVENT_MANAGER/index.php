@@ -21,7 +21,7 @@
                         <h3>EVENT MANAGER</h3>
                     </div>
                     <div class="card-body">
-                        <h4>Selamat Datangf</h4>
+                        <h4>Selamat Datang</h4>
                         <p>Di Web Kita, kita-kita aja</p>
                     </div>
                 </div>

@@ -49,7 +49,7 @@ $data = mysqli_fetch_array($edit);
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Nama Event</label>
-                                <input type="text" value="<?=$data['event']?>" name="event" class="form-control" id="exampleInputPassword1">
+                                <input type="text" value="<?=$data['nama']?>" name="event" class="form-control" id="exampleInputPassword1">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Lokasi</label>
